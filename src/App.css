@@ -1,0 +1,152 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  text-align: center;
+  background-color: #dbe8d7;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  justify-self: center; /* Ensures the logo stays centered in its grid cell */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background-color: #f9f9f9; /* Adds a light background for better contrast */
+  border-radius: 0.5rem; /* Rounds card edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: left; /* Align text inside cards to the left */
+}
+
+.card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow effect on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+  transition: box-shadow 300ms, transform 300ms;
+}
+
+.read-the-docs {
+  color: #888;
+  grid-column: span 2; /* Makes this element span across two columns if space permits */
+  justify-self: center;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  #root {
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+  }
+
+  .logo {
+    height: 5em; /* Slightly reduce logo size on smaller screens */
+  }
+
+  .card {
+    padding: 1.5em; /* Adjust padding for smaller screen sizes */
+  }
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  text-align: center;
+  background-color: #dbe8d7;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  justify-self: center; /* Ensures the logo stays centered in its grid cell */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background-color: #f9f9f9; /* Adds a light background for better contrast */
+  border-radius: 0.5rem; /* Rounds card edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: left; /* Align text inside cards to the left */
+}
+
+.card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow effect on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+  transition: box-shadow 300ms, transform 300ms;
+}
+
+.read-the-docs {
+  color: #888;
+  grid-column: span 2; /* Makes this element span across two columns if space permits */
+  justify-self: center;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  #root {
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+  }
+
+  .logo {
+    height: 5em; /* Slightly reduce logo size on smaller screens */
+  }
+
+  .card {
+    padding: 1.5em; /* Adjust padding for smaller screen sizes */
+  }
+}
