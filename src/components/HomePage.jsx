@@ -58,7 +58,7 @@ const HomePage = () => {
           <Container>
             <Navbar.Brand href="#" className="d-flex align-items-center">
               <Camera className="me-2" size={20} />
-              <strong>Kaptagat Water Springs</strong>
+              <strong>Kaptagat Water Springs E-commerce Store</strong>
             </Navbar.Brand>
             <Navbar.Toggle 
               onClick={() => setShowHeader(!showHeader)}
